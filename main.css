@@ -1,0 +1,72 @@
+
+body{
+    background-color: gray;
+    color: rgb(116, 18, 18);
+}
+h1{
+    margin: 0;
+    padding-left: 45%;
+}
+
+header{
+    display: flex;
+    border: 5px solid rgb(116, 18, 18);
+    background-color: rgb(185, 184, 183);
+    align-items: center;
+}
+
+.tituloEleiçao{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    background-color: brown;
+    margin-bottom: 0%;
+}
+
+.tituloCopinha{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(62, 158, 83);
+}
+
+.topicos {
+    display: flex;
+    padding-left: 30%;
+    gap: 20px
+}
+
+img{
+    width: 400px;
+    height: 500px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(62, 158, 83);
+}
+
+h5{
+    width: 400px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.p1{
+    background-color: brown;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
